@@ -12,14 +12,12 @@ class ingredientVC: UIViewController {
 
     @IBOutlet weak var imageViewBottleRecipe: UIImageView!
     
-    var bottleRecipe = UIImage(named: "bottleRecipe")
-    var bottleRecipeImageView = UIImage(image: bottleRecipe)
     override func viewDidLoad()
     {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        imageViewBottleRecipe.image = UIImageView(named: "bottleRecipe")
+        imageViewBottleRecipe.image = UIImage(named: "bottleRecipe")
     }
     
 
